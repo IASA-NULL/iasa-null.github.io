@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>인천과학예술영재학교</title>
+    <link href="../res/mdc-web.min.css" rel="stylesheet">
+    <script src="../res/mdc-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <style>
+        :root {
+            --mdc-theme-primary: #484f61;
+            --mdc-theme-secondary: #9da6bd;
+        }
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 200;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .mdc-card {
+            width: 300px;
+            height: 220px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .mdc-card .mdc-card__media-content {
+            background-size: cover !important;
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            transition: 0.5s;
+        }
+
+        .mdc-card .mdc-card__media-content p {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background: #00000044;
+            padding-top: 50px;
+        }
+
+        .mdc-card__media-content:hover {
+            margin: -30px;
+            padding: 30px;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        window.mdc.autoInit();
+    })
+</script>
+<header class="mdc-top-app-bar" data-mdc-auto-init="MDCTopAppBar">
+    <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button"
+                    aria-label="Open navigation menu">menu
+            </button>
+            <span class="mdc-top-app-bar__title">진로진학 정보</span>
+        </section>
+    </div>
+</header>
+<main class="mdc-top-app-bar--fixed-adjust" style="padding-left: 10px; padding-right: 10px;">
+    <h1>원서접수시스템</h1>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/uway.jpg');"><p>uWay</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   data-mdc-auto-init="MDCRipple"
+                   href="https://www.uwayapply.com/">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/jinhak.jpg');"><p>JINHAK</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="http://www.jinhakapply.com/"
+                   data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <h1>과학기술원</h1>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/kaist.jpg');"><p>KAIST</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://admission.kaist.ac.kr/undergraduate/" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/postech.jpg');"><p>POSTECH</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://adm-u.postech.ac.kr/"
+                   data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/unist.jpg');"><p>UNIST</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://adm-u.unist.ac.kr/"
+                   data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/gist.jpg');"><p>GIST</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://www.gist.ac.kr/uadm/main.html" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/dgist.jpg');"><p>DIGIST</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://www.dgist.ac.kr/adm/"
+                   data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/kentech.jpg');"><p>KENTECH</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://www.kentech.ac.kr/kor/31/subview.do" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <h1>일반 대학교</h1>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/snu.png');"><p>서울대학교</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://admission.snu.ac.kr/"
+                   data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/yu.jpg');"><p>연세대학교</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://www.yonsei.ac.kr/sc/admission/admission.jsp" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/kou.jpg');"><p>고려대학교</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://oku.korea.ac.kr/oku/index.do" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/sku.jpg');"><p>서강대학교</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://www.sogang.ac.kr/admin/grad_01.html" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/skku.jpg');"><p>성균관대학교</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://admission.skku.edu/intro.html" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('../res/img/hyu.jpg');"><p>한양대학교</p></div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a target="_blank" class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="https://go.hanyang.ac.kr/"
+                   data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">입학관리처</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <h1>자소서 양식</h1>
+    <div>
+        <a href="jss/kaist.hwp" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">KAIST</span>
+        </a>
+        <a href="jss/gist.hwp" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">GIST</span>
+        </a>
+        <a href="jss/unist.hwp" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">UNIST</span>
+        </a>
+        <a href="jss/dgist.hwp" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">DGIST</span>
+        </a>
+        <a href="jss/postech.hwp" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">POSTECH</span>
+        </a>
+        <a href="jss/snu.hwp" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">서울대</span>
+        </a>
+        <a href="jss/skku.hwp" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">성균관대</span>
+        </a>
+        <a href="jss/yu.pdf" class="mdc-button mdc-button--icon-leading mdc-button--outlined" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__ripple"></span>
+            <i class="material-icons mdc-button__icon" aria-hidden="true">download</i>
+            <span class="mdc-button__label">연세대</span>
+        </a>
+    </div>
+    <br/>
+</main>
+</body>
+</html>

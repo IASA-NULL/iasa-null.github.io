@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>인천과학예술영재학교</title>
+    <link href="./res/mdc-web.min.css" rel="stylesheet">
+    <script src="./res/mdc-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <style>
+        :root {
+            --mdc-theme-primary: #484f61;
+            --mdc-theme-secondary: #9da6bd;
+        }
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 200;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .mdc-card {
+            width: 300px;
+            height: 220px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .mdc-card .mdc-card__media-content {
+            background-size: cover !important;
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            transition: 0.5s;
+        }
+
+        .mdc-card .mdc-card__media-content p {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background: #00000044;
+            padding-top: 50px;
+        }
+
+        .mdc-card__media-content:hover {
+            margin: -30px;
+            padding: 30px;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        window.mdc.autoInit();
+    })
+</script>
+<header class="mdc-top-app-bar" data-mdc-auto-init="MDCTopAppBar">
+    <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button"
+                    aria-label="Open navigation menu">menu
+            </button>
+            <span class="mdc-top-app-bar__title">IASA</span>
+        </section>
+    </div>
+</header>
+<main class="mdc-top-app-bar--fixed-adjust" style="padding-left: 10px; padding-right: 10px;">
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('./res/img/meal.jpg');"><p>급식</p>
+                </div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="/meal" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">바로가기</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('./res/img/time.jpg');"><p>시간표</p>
+                </div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="/myClass" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">바로가기</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdc-card mdc-card--outlined">
+        <div class="mdc-card__primary-action" tabindex="0" data-mdc-auto-init="MDCRipple">
+            <div class="my-card__media mdc-card__media mdc-card__media--16-9">
+                <div class="mdc-card__media-content" style="background: url('./res/img/next.jpg');"><p>진로진학</p>
+                </div>
+            </div>
+            <div class="mdc-card__ripple"></div>
+        </div>
+        <div class="mdc-card__actions">
+            <div class="mdc-card__action-buttons">
+                <a class="mdc-button mdc-card__action mdc-card__action--button"
+                   href="/next" data-mdc-auto-init="MDCRipple">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">바로가기</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
